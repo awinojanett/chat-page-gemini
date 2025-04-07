@@ -1,10 +1,10 @@
-Voice-Enabled Chat Page with LLM Integration
+#Voice-Enabled Chat Page with LLM Integration
 
 This project is a Chat Page that takes voice inputs from users, which are processed through a Large Language Model (LLM) to generate responses. 
 It replies via both text and speech, creating a natural and accessible conversation experience.
 
 
-Features
+##Features
 
 •	Voice Input: Users can speak directly to the app using the browser’s built-in Web Speech API.
 
@@ -12,7 +12,7 @@ Features
 
 •	Speech Output: Assistant replies are read aloud using the Speech Synthesis API.
 
-Technologies Used
+##Technologies Used
 	
 React	- Frontend UI framework
 
@@ -25,7 +25,7 @@ Gemini LLM API (Google)	- To generate intelligent chat responses
 HTML/CSS	- Styling and layout
 
 
-Implementation Details
+##Implementation Details
 
 •	Voice Input:
 
@@ -46,7 +46,7 @@ o	Response text is extracted and displayed on the chat interface.
 o	When the assistant responds, the text is passed to window.speechSynthesis to be read out loud.
 
 
-How It Works
+##How It Works
 
 1.	User speaks into the microphone.
 2.	SpeechRecognition API converts the spoken input to text.
